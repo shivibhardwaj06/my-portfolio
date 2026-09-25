@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.section {
+    padding: 30px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.skill-box {
+    width: 100px;
+    height: 60px;
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer p {
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .skills-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
