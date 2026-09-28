@@ -32,7 +32,7 @@ form.addEventListener("submit", async function(event) {
         return;
     }
 
-    let url = `YAHAN-APNA-REPLIT-URL/save-contact?name=${encodeURIComponent(name)}&email=${encodeURIComponent(email)}`;
+    let url =https://cnvs_1pavdsw8ww8f1r3sgja1hz0e6c-00-1q5op23ld0q6k.pike.replit.dev
 
     let response = await fetch(url, { method: "POST" });
     let data = await response.json();
